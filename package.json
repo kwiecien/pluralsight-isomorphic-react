@@ -1,0 +1,20 @@
+{
+  "name": "pluralsight-isomorphic-react",
+  "version": "1.0.0",
+  "description": "![image](https://user-images.githubusercontent.com/4268152/31387801-c091f5c8-ad99-11e7-9cb6-42fcde98fc88.png) ### About The Application This application is a basic API client which gathers data from an outside API (in this case, Stackoverflow) and generates an isomorphic, single-page application (SPA).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwiecien/pluralsight-isomorphic-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwiecien/pluralsight-isomorphic-react/issues"
+  },
+  "homepage": "https://github.com/kwiecien/pluralsight-isomorphic-react#readme"
+}
