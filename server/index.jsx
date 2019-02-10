@@ -10,7 +10,7 @@ import {delay} from 'redux-saga';
 const port = process.env.PORT || 3000;
 const app = express();
 
-const useLiveData = argv.liveData === "true"; // cross-env NODE-ENV=development babel-node server --liveData=true
+const useLiveData = argv.useLiveData === "true"; // cross-env NODE-ENV=development babel-node server --liveData=true
 
 function* getQuestions() {
     let data;
