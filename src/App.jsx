@@ -6,11 +6,13 @@ import {Route, Link} from "react-router-dom";
 
 const AppDisplay = () => (
     <div>
-        <h1>
+        <div>
             <Link to={`/`}>
-                Isomorphic React
+                <h1>
+                    Isomorphic React
+                </h1>
             </Link>
-        </h1>
+        </div>
         <div>
             <Route exact path="/" render={() => <QuestionList/>}/>
             <Route exact path="/questions/:id"

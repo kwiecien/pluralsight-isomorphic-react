@@ -3,7 +3,7 @@ import Markdown from 'react-markdown';
 import TagsList from './TagsList';
 import {connect} from 'react-redux';
 
-const QuestionDetailDisplay = ({title, bodu, answer_count, tags}) => (
+const QuestionDetailDisplay = ({title, body, answer_count, tags}) => (
     <div>
         <h3 className="mb-2">
             {title}
@@ -13,7 +13,7 @@ const QuestionDetailDisplay = ({title, bodu, answer_count, tags}) => (
                 <div>
                     <TagsList tags={tags}/>
                 </div>
-                <Markdown source={source}/>
+                <Markdown source={body}/>
                 <div>
                     {answer_count} Answers
                 </div>
